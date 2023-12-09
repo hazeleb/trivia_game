@@ -1,7 +1,11 @@
-<link rel="stylesheet" href="https://pyscript.net/releases/2023.11.1/core.css" />
-<script type="module" src="https://pyscript.net/releases/2023.11.1/core.js"></script>
+<!DOCTYPE html
+<html>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2023.11.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2023.11.1/core.js"></script>
 
-<section class="script">
+    <py-script> print('Now you can!') </py-script>
+
+    <section class="script">
     Hello world! <br>
     This is the current date and time, as computed by Python:
     <py-script>
@@ -9,4 +13,8 @@
         now = datetime.now()
         display(now.strftime("%m/%d/%Y, %H:%M:%S"))
     </py-script>
-</section>
+    </section>
+
+</html>
+
+
